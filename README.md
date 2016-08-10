@@ -2,6 +2,6 @@
 JPL Count is a counter.
 
 ## Controls
-- `Spacebar`: increment
-- `Backspace`: decrement
-- `R`: restart
+- `Spacebar` or `Up`: increment
+- `Backspace` or `Down`: decrement
+- `X`: restart
