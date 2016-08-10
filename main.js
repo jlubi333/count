@@ -60,5 +60,18 @@
             }
             handleKeyCode(event.keyCode);
         });
+
+        var body = document.getElementsByTagName("body")[0];
+        var updateHash = function() {
+            if (window.location.hash.length === 7) {
+                body.style.color = window.location.hash;
+            } else {
+                body.style.color = "";
+            }
+        };
+        window.addEventListener("hashchange", function(event) {
+            updateHash();
+        });
+        updateHash();
     });
 })();
