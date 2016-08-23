@@ -4,7 +4,7 @@
         40: decrement, // Down
         32: increment, // Spacebar
         38: increment, // Up
-        48: restart // 0
+        48: restart, // 0
         88: restart // X
     }
 
