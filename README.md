@@ -4,4 +4,4 @@ JPL Count is a counter.
 ## Controls
 - `Spacebar` or `Up`: increment
 - `Backspace` or `Down`: decrement
-- `X`: restart
+- `X` or `0`: restart
